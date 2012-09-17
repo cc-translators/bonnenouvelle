@@ -1,0 +1,75 @@
+\documentclass[paper=4.25in:6.87in]{scrjrnl}
+\usepackage[french]{babel}
+
+\usepackage[
+            %draft,
+            hyphenation,
+            nosingleletter,
+            lastparline,
+            homeoarchy,
+            %rivers
+            ]{impnattypo}
+
+\usepackage[breaklinks=true,unicode=true]{hyperref}
+\hypersetup{colorlinks,
+           citecolor=black,
+           filecolor=black,
+           linkcolor=black,
+           urlcolor=black,
+           bookmarksopen=true,
+           pdfpagelayout=TwoPageRight,
+           pdfauthor={Chuck Smith},
+           pdftitle={Sagesse pour Aujourd'hui},
+           pdftex}
+\usepackage{url}
+\usepackage[protrusion=true,final]{microtype}
+\usepackage{typearea}
+
+% Make indexes
+\newcommand{\indextitle}{Index des r\'ef\'erences bibliques}
+\usepackage{imakeidx}
+\makeindex[title=\indextitle,intoc,options=-s bibleref.ist,columns=2]
+
+\usepackage{epigraph}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+%\defaultfontfeatures{Mapping=tex-text}
+\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont{Minion Pro}
+\setmainfont{EB Garamond}
+
+\setlength{\jrnldaysepskip}{3cm}
+\makeatletter
+\renewcommand{\jrnl@seclblstyle}{\raggedleft\normalfont\scshape\large}
+\renewcommand{\jrnl@secstyle}{\dayheadfont\itshape\huge}
+\makeatother
+
+\begin{document}
+
+\pagestyle{empty}
+\renewcommand*{\chapterpagestyle}{empty}
+
+\begin{journal}[startmonth=12]
+
+\jrnlmonth
+
+\include{jours/01}
+\include{jours/02}
+\include{jours/03}
+\include{jours/04}
+\include{jours/05}
+\include{jours/06}
+\include{jours/07}
+\include{jours/08}
+\include{jours/09}
+\include{jours/10}
+
+\include{jours/11}
+\include{jours/12}
+\include{jours/13}
+
+
+\end{journal}
+
+\end{document}
