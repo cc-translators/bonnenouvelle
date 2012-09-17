@@ -31,6 +31,7 @@
 \makeindex[title=\indextitle,intoc,options=-s bibleref.ist,columns=2]
 
 \usepackage{epigraph}
+\setlength\epigraphwidth{5cm}
 
 \usepackage{fontspec}
 \usepackage{xunicode}
@@ -44,6 +45,30 @@
 \renewcommand{\jrnl@seclblstyle}{\raggedleft\normalfont\scshape\large}
 \renewcommand{\jrnl@secstyle}{\dayheadfont\itshape\huge}
 \makeatother
+
+% cadratin
+\newcommand*{\ocadr}{\mbox{---}\nobreak\,\nobreak}
+\newcommand*{\fcadr}{\unskip\nobreak\,\nobreak{}---}
+
+% dvquote
+\usepackage{fancybox}
+\usepackage{ragged2e}
+\newlength{\outparbox}%
+\newlength{\inparbox}%
+\newlength{\vspaceparbox}%
+\newcommand{\dvquote}[3][0.9\textwidth]{%
+  \setlength{\outparbox}{#1}%
+  \setlength{\vspaceparbox}{-0.07\inparbox}%
+  \vfill
+  \begin{center}\parbox{\outparbox}{%
+    \begin{Center}%
+    \hyphenpenalty=10000%
+    \begin{itshape}#2\end{itshape}\\[1.2mm]
+    \ocadr{}\textsc{#3}%
+    \end{Center}%
+  }\end{center}\vspace{\vspaceparbox}%
+  \vfill
+}
 
 \begin{document}
 
