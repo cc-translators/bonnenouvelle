@@ -76,16 +76,24 @@
 }
 
 % dvepigraph
-\newcommand{\dvepigraph}[3][2]{%
-\begin{multicols}{#1}
-\epigraphsize%
-#2
+\newcommand{\dvepigraphrefstyle}{\textsc}
+\newcommand{\dvepigraph}[3][1]{%
+\ifcase#1
+% 0: do nothing
+\or% 1: use epigraph
+  \epigraph{%
+    #2
+  }{\dvepigraphrefstyle{#3}}
+\or% 2, use multicols
+  \begin{multicols}{#1}
+    \epigraphsize%
+    #2
 
-
-\raggedleft{%
-\rule[.5ex]{0.95\epigraphwidth}{\epigraphrule}
-#3}
-\end{multicols}
+    \raggedleft{%
+    \rule[.5ex]{0.95\epigraphwidth}{\epigraphrule}
+    \dvepigraphrefstyle{#3}}
+  \end{multicols}
+\fi
 }
 
 % multicol
