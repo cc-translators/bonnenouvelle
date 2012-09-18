@@ -1,4 +1,4 @@
-\documentclass[paper=6in:9in]{scrjrnl}
+\documentclass[paper=6in:9in,BCOR=0.5in]{scrjrnl}
 \usepackage[french]{babel}
 
 \usepackage[
@@ -24,6 +24,9 @@
 \usepackage{url}
 \usepackage[protrusion=true,final]{microtype}
 \usepackage{typearea}
+%\areaset[0.50in]{4.5in}{8in}
+
+\usepackage{footnote}
 
 \usepackage{bibleref-french-colombe}
 
@@ -42,7 +45,7 @@
 %\setmainfont{Minion Pro}
 \setmainfont{EB Garamond}
 
-\setlength{\jrnldaysepskip}{3cm}
+\setlength{\jrnldaysepskip}{2.5cm}
 \makeatletter
 \renewcommand{\jrnl@seclblstyle}{\raggedleft\normalfont\scshape\large}
 \renewcommand{\jrnl@secstyle}{\dayheadfont\itshape\huge}
@@ -61,16 +64,34 @@
 \newcommand{\dvquote}[3][0.9\textwidth]{%
   \setlength{\outparbox}{#1}%
   \setlength{\vspaceparbox}{-0.07\inparbox}%
-  \vfill
+  %\vfill
   \begin{center}\parbox{\outparbox}{%
     \begin{Center}%
     \hyphenpenalty=10000%
     \begin{itshape}#2\end{itshape}\\[1.2mm]
     \ocadr{}\textsc{#3}%
     \end{Center}%
-  }\end{center}\vspace{\vspaceparbox}%
-  \vfill
+  }\end{center}%\vspace{\vspaceparbox}%
+  %\vfill
 }
+
+% dvepigraph
+\newcommand{\dvepigraph}[3][2]{%
+\begin{multicols}{#1}
+\epigraphsize%
+#2
+
+\rule[.5ex]{\epigraphwidth}{\epigraphrule}
+
+\raggedleft{#3}
+\end{multicols}
+}
+
+% multicol
+\usepackage{multicol}
+
+% Set paragraphs
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
 
 \begin{document}
 
