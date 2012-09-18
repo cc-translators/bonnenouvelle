@@ -1,0 +1,112 @@
+\ProvidesPackage{bonnenouvelle}
+
+\usepackage[french]{babel}
+
+\usepackage[
+            %draft,
+            hyphenation,
+            nosingleletter,
+            lastparline,
+            homeoarchy,
+            %rivers
+            ]{impnattypo}
+
+\usepackage[breaklinks=true,unicode=true]{hyperref}
+\hypersetup{colorlinks,
+           citecolor=black,
+           filecolor=black,
+           linkcolor=black,
+           urlcolor=black,
+           bookmarksopen=true,
+           pdfpagelayout=TwoPageRight,
+           pdfauthor={Chuck Smith},
+           pdftitle={Sagesse pour Aujourd'hui},
+           pdftex}
+\usepackage{url}
+\usepackage[protrusion=true,final]{microtype}
+\usepackage{typearea}
+%\areaset[0.50in]{4.5in}{8in}
+
+% Setup footnotes
+\usepackage{footnote}
+
+\usepackage{bibleref-french-colombe}
+
+% Make indexes
+\newcommand{\indextitle}{Index des r\'ef\'erences bibliques}
+\usepackage{imakeidx}
+\makeindex[title=\indextitle,intoc,options=-s bibleref.ist,columns=2]
+
+\usepackage{epigraph}
+\setlength\epigraphwidth{5cm}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+%\defaultfontfeatures{Mapping=tex-text}
+\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont{Minion Pro}
+\setmainfont{EB Garamond}
+
+\setlength{\jrnldaysepskip}{4cm}
+\makeatletter
+\renewcommand{\jrnl@seclblstyle}{\raggedleft\normalfont\scshape\large}
+\renewcommand{\jrnl@secstyle}{\dayheadfont\itshape\huge}
+\makeatother
+
+% cadratin
+\newcommand*{\ocadr}{\mbox{---}\nobreak\,\nobreak}
+\newcommand*{\fcadr}{\unskip\nobreak\,\nobreak{}---}
+
+% dvquote
+\usepackage{fancybox}
+\usepackage{ragged2e}
+\newlength{\outparbox}%
+\newlength{\inparbox}%
+\newlength{\vspaceparbox}%
+\newcommand{\dvquote}[3][0.9\textwidth]{%
+  \setlength{\outparbox}{#1}%
+  \setlength{\vspaceparbox}{-0.07\inparbox}%
+  %\vfill
+  \begin{center}\parbox{\outparbox}{%
+    \begin{Center}%
+    \hyphenpenalty=10000%
+    \begin{itshape}#2\end{itshape}\\[1.2mm]
+    \ocadr{}\textsc{#3}%
+    \end{Center}%
+  }\end{center}%\vspace{\vspaceparbox}%
+  %\vfill
+}
+
+% dvepigraph
+\newcommand{\dvepigraphrefstyle}{\textsc}
+\newcommand{\dvepigraph}[3][1]{%
+\ifcase#1
+% 0: do nothing
+\or% 1: use epigraph
+  \begin{savenotes}
+  \epigraph{%
+    #2
+  }{\dvepigraphrefstyle{#3}}
+  \end{savenotes}
+\or% 2, use multicols
+  \begin{multicols}{#1}
+    \epigraphsize%
+    #2
+
+    \raggedleft{%
+    \rule[.5ex]{0.95\epigraphwidth}{\epigraphrule}
+    \dvepigraphrefstyle{#3}}
+  \end{multicols}
+\fi
+}
+
+% multicol
+\usepackage{multicol}
+
+% Set paragraphs
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+% Setup page style
+\pagestyle{empty}
+\renewcommand*{\chapterpagestyle}{empty}
+
