@@ -2,7 +2,19 @@
 
 \usepackage{bonnenouvelle}
 
+% ISBN
+\newcommand{\isbn}{978-2-9539988-5-6}
+
 \begin{document}
+
+%\maketitle
+\setlength{\parindent}{0em}
+\input{title}
+\input{copyright}
+
+\setlength{\parindent}{1em}
+% Debug overfull boxes
+\overfullrule=1mm
 
 \begin{journal}[startmonth=12]
 
@@ -47,6 +59,18 @@
 
 \end{journal}
 
+% Add index
+% Restore normal chapters
+\renewcommand*{\BRbooktitlestyle}[1]{\emph{#1}\vadjust{\nobreak}}
+% No page number on first page of index
+\makeatletter
+\def\imki@firstpagestyle{empty}
+\makeatother
+% Print index
+\titleformat{\chapter}[display]
+  {\vspace{11mm}\dayheadfont\huge}
+  {}{10pt}
+  {\vspace{-25mm}\filcenter}
 \printindex
 
 \end{document}
