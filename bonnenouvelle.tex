@@ -9,8 +9,9 @@
 
 %\maketitle
 \setlength{\parindent}{0em}
-\input{title}
-\input{copyright}
+\include{title}
+\include{copyright}
+\include{dedication}
 
 \setlength{\parindent}{1em}
 % Debug overfull boxes
@@ -72,5 +73,12 @@
   {}{10pt}
   {\vspace{-25mm}\filcenter}
 \printindex
+
+% depot legal
+\pagestyle{empty}
+\include{depotlegal}
+
+\clearpage
+\mbox{}
 
 \end{document}

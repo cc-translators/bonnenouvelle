@@ -132,3 +132,17 @@
 % HRule
 \newcommand{\HRule}{\rule{\linewidth}{0.2mm}}
 
+\newfontfamily\ornfont[Scale=9]{HoodHeavenOrnamentsOneSSi}
+\newcommand\ornrule{{\ornfont{\char"0053}}}
+
+% Dedication
+\newcommand\dedicationtext[1]{%
+\begin{center}
+  \parbox{5cm}{\centering
+    \ornrule\\
+    \emph{#1}\\[1cm]
+    \ornrule
+  }
+\end{center}
+}
+
