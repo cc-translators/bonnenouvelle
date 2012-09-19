@@ -2,6 +2,8 @@
 
 \usepackage[french]{babel}
 
+\usepackage{ifluatex}
+\ifluatex
 \usepackage[
             %draft,
             hyphenation,
@@ -10,6 +12,7 @@
             homeoarchy,
             %rivers
             ]{impnattypo}
+\fi
 
 \usepackage[all]{nowidow}
 
