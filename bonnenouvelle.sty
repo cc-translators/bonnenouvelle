@@ -157,7 +157,9 @@
 
 % colon, frenchb's definition
 \makeatletter
-\newcommand\frcolon{%
+\initiate@active@char{≡}%
+\shorthandon{≡}
+\declare@shorthand{french}{≡}{%
       \ifhmode
         \ifdim\lastskip>\z@
           \unskip\penalty\@M\Fcolonspace
@@ -166,4 +168,6 @@
         \fi
       \fi
       \string:\space}
+\declare@shorthand{system}{≡}{\string≡}
+\bbl@activate{≡}
 \makeatother
