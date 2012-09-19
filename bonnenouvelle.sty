@@ -1,6 +1,7 @@
 \ProvidesPackage{bonnenouvelle}
 
 \usepackage[french]{babel}
+\selectlanguage{french}
 
 \usepackage{ifluatex}
 \ifluatex
@@ -154,3 +155,15 @@
 \end{center}
 }
 
+% colon, frenchb's definition
+\makeatletter
+\newcommand\frcolon{%
+      \ifhmode
+        \ifdim\lastskip>\z@
+          \unskip\penalty\@M\Fcolonspace
+        \else
+          \FDP@colonspace
+        \fi
+      \fi
+      \string:\space}
+\makeatother
