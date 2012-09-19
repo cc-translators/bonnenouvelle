@@ -87,11 +87,11 @@
 % dvepigraph
 \newcommand{\dvepigraphrefstyle}{\textsc}
 \newcommand{\dvepigraph}[3][1]{%
+\par\vspace{0pt plus -1fill}
 \ifcase#1
 % 0: do nothing
 \or% 1: use epigraph
   \begin{savenotes}
-  \par\vspace{0pt plus -1fill}
   \epigraph{%
     #2
   }{\dvepigraphrefstyle{#3}}
@@ -106,6 +106,7 @@
     \dvepigraphrefstyle{#3}}
   \end{multicols}
 \fi
+\par\vspace{0pt plus 1fil}
 }
 
 % multicol
