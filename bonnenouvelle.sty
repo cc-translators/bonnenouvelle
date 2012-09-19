@@ -54,6 +54,7 @@
 \setmainfont{EB Garamond}
 
 \setlength{\jrnldaysepskip}{3cm}
+\setlength{\jrnldayafterskip}{2\baselineskip plus 1fill}
 \makeatletter
 \renewcommand{\jrnl@seclblstyle}{\raggedleft\normalfont\scshape\large}
 \renewcommand{\jrnl@secstyle}{\dayheadfont\itshape\huge}
@@ -90,6 +91,7 @@
 % 0: do nothing
 \or% 1: use epigraph
   \begin{savenotes}
+  \par\vspace{0pt plus -1fill}
   \epigraph{%
     #2
   }{\dvepigraphrefstyle{#3}}
