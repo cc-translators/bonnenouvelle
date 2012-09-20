@@ -58,12 +58,14 @@
 \setlength\epigraphwidth{5cm}
 \renewcommand\textflush{flushepinormal}
 
+\ifluatex
 \usepackage{fontspec}
 \usepackage{xunicode}
 %\defaultfontfeatures{Mapping=tex-text}
 \defaultfontfeatures{Ligatures=TeX}
 %\setmainfont{Minion Pro}
 \setmainfont{EB Garamond}
+\fi
 
 \setlength{\jrnldaysepskip}{3.2cm}
 \setlength{\jrnldayafterskip}{2\baselineskip plus 1fill}
@@ -166,7 +168,11 @@
 % HRule
 \newcommand{\HRule}{\rule{\linewidth}{0.2mm}}
 
+\ifluatex
 \newfontfamily\ornfont[Scale=9]{HoodHeavenOrnamentsOneSSi}
+\else
+\newcommand\ornfont{}
+\fi
 \newcommand\ornrule{\begin{center}\ornfont{\char"0053}\vspace{-0.5cm}\end{center}}
 
 % Dedication
