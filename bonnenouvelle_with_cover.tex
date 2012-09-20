@@ -13,6 +13,8 @@
 
 %\maketitle
 \setlength{\parindent}{0em}
+\include{fake_title}
+\cleardoublepage
 \include{title}
 \include{copyright}
 \include{dedication}
@@ -80,14 +82,16 @@
 
 % depot legal
 \pagestyle{empty}
+\cleardoublepage
 \include{depotlegal}
 
-%\clearpage
-%\mbox{}
-
-\cleardoublepage
-\mbox{}
 \clearpage
+\mbox{}
+
+%\cleardoublepage
+%\mbox{}
+\clearpage
+\mbox{}
 
 \includepdf{bonnenouvelle_cover_back}
 
