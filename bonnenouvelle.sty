@@ -19,6 +19,15 @@
 
 \usepackage{numprint}
 
+% Songs
+\usepackage{verse}
+
+\newcommand{\attrib}[1]{%
+        \nopagebreak{\raggedleft\footnotesize #1\par}}
+
+\setlength\vleftskip{1em}
+
+
 \usepackage[breaklinks=true,unicode=true]{hyperref}
 \hypersetup{colorlinks,
            citecolor=black,
@@ -226,4 +235,3 @@
 \patchcmd{\protected@iwrite}{\write}{\immediate\write}{}{}
 \patchcmd{\@Wrindex}{\protected@write}{\protected@iwrite}{}{}
 \makeatother
-
