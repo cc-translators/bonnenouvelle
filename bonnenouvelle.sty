@@ -43,7 +43,7 @@
 % Make indexes
 \newcommand{\indextitle}{Index des r\'ef\'erences bibliques}
 \usepackage{imakeidx}
-\makeindex[title=\indextitle,intoc,options=-s bibleref.ist,columns=2]
+\makeindex[title=\indextitle,intoc,options=-r -s bibleref.ist,columns=2]
 
 \usepackage{epigraph}
 \setlength\epigraphwidth{5cm}
@@ -195,3 +195,35 @@
     \includegraphics[height=#1]{images/#2}
   \end{center}
 }
+
+% Patch bibleref to sort Bible books properly
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@bible@verse}{\@bv@idxsort{\csname br@#1\endcsname}}{\@bv@idxsort{#1}}
+\makeatother
+
+% Index by day
+\renewcommand*{\bvidxpgformat}{transform}
+
+\renewcommand\jrnlformatindexdate[3]{\ordinaldate{#1}}
+\newcommand\getpagedate[1]{\csname jrnldaydate#1\endcsname}
+
+\newcommand{\transform}[1]{%
+  \def\secondparam{0}%
+  \forcsvlist\decodesec{#1}}
+\newcommand{\decodesec}[1]{%
+  \ifthenelse{\secondparam=1}{, }{}%
+  %\hyperlink{page.#1}{\mbox{\textsc{\getpagedate{#1}}}}%
+  \mbox{\textsc{\getpagedate{#1}}}
+  \def\secondparam{1}}
+
+% Patch imakeidx to map verse num instead of page
+\makeatletter
+\patchcmd{\@index}{\@wrindex}{\@Wrindex}{}{}
+\let\@Wrindex\@wrindex
+\patchcmd{\@Wrindex}{\thepage}{\thejrnltotalday}{}{}
+\let\protected@iwrite\protected@write
+\patchcmd{\protected@iwrite}{\write}{\immediate\write}{}{}
+\patchcmd{\@Wrindex}{\protected@write}{\protected@iwrite}{}{}
+\makeatother
+
