@@ -1,0 +1,205 @@
+% Global footnotes in ebooks
+\usepackage{chngcntr}
+\counterwithout{footnote}{chapter}
+% page breaks
+\renewcommand\pagebreak{%
+\HCode{<br class="pagebreak" />}
+}
+
+% Disable ligatures for small caps
+\DisableLigatures{encoding = *, family = * }
+
+% Guillemets
+\renewcommand{\Og}{\HCode{&laquo;&nbsp;}}
+\renewcommand{\Fg}{\HCode{&nbsp;&raquo;}}
+
+% French colon
+\renewcommand{\frcolon}{\HCode{&nbsp;:}}
+
+% HRule
+\renewcommand{\HRule}{\HCode{<hr class="hrule" />}}
+\Css{hr.hrule{
+background-color:black;
+height:1px;
+border:0;
+}}
+
+% Do not force newlines
+%\Css{br.newline{
+%display:none;
+%}}
+
+% Book title
+\NewConfigure{booktitle}{8}
+\renewcommand\subtitleskip{\\}
+\renewcommand\booktitle[3]{%
+\a:booktitle#1\b:booktitle
+\c:booktitle
+\d:booktitle#2\e:booktitle
+\f:booktitle
+\g:booktitle#3\h:booktitle
+}
+\Configure{booktitle}
+  {\ifvmode\IgnorePar\fi\EndP\Tg<div class="booksubtitle">}{\Tg</div>}
+  {\Tg<hr class="titlerule" />}
+  {\Tg<div class="booktitle">}{\Tg</div>}
+  {\Tg<hr class="titlerule" />}
+  {\Tg<div class="author">}{\Tg</div>\IgnoreIndent}
+\Css{.booksubtitle{
+font-size: large;
+}
+.booktitle{
+font-variant: small-caps;
+font-size: xx-large;
+}
+.author{
+font-size: x-large;
+}
+hr.titlerule{
+background-color:black;
+height:1px;
+border:0;
+}}
+
+% Use T1 encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Reconfigure small caps
+\NewConfigure{textsc}{2}
+\renewcommand\textsc[1]{%
+\a:textsc#1\b:textsc
+}
+\Configure{textsc}{\Tg<span class="small-caps">}{\Tg</span>}
+
+% months for toc
+\NewConfigure{HTMLchapHook}{2}
+\renewcommand\HTMLchapHook[1]{%
+\a:HTMLchapHook#1\b:HTMLchapHook
+}
+\Configure{HTMLchapHook}{%
+\ifvmode\IgnorePar\fi\EndP\Tg<h2 class="dvmonth">}{\Tg</h2>\IgnoreIndent}
+\Css{h2.dvmonth{
+display: none;
+}}
+
+% dvday display
+\NewConfigure{HTMLsecHook}{8}
+\renewcommand\HTMLsecHook[2]{%
+\a:HTMLsecHook\b:HTMLsecHook#1\c:HTMLsecHook
+    \d:HTMLsecHook~---~\e:HTMLsecHook
+    \f:HTMLsecHook#2\g:HTMLsecHook
+\h:HTMLsecHook
+}
+\Configure{HTMLsecHook}{%
+\ifvmode\IgnorePar\fi\EndP\Tg<h3 class="dvday" id="page.\thepage">}{\Tg<a id="chap.\thechapter-sec.\thesection">}{\Tg</a>}{\Tg<span class="dvdaydash">}{\Tg</span>}{\Tg<span class="dvdaytitle">}{\Tg</span>}{\Tg</h3>\IgnoreIndent}
+\Css{h3.dvday{
+font-variant:small-caps;
+}
+h3.dvday span.dvdaytitle{
+margin:auto 5\%;
+font-size:xx-large;
+display:block;
+text-align:center;
+}
+h3.dvday span.dvdaydash{
+display:none;
+}}
+\renewcommand\section[2][]{\stepcounter{section}}
+
+% Do not display title mark (for introduction)
+\Css{.titlemark{
+display:none;
+}}
+
+% dvquote
+\NewConfigure{dvquote}{6}
+\renewcommand\dvquote[3][]{%
+\a:dvquote\b:dvquote#2\c:dvquote
+\d:dvquote\ocadr{}\textsc{#3}\e:dvquote
+\f:dvquote
+}
+\Configure{dvquote}{%
+\ifvmode\IgnorePar\fi\EndP\Tg<div class="dvquote">}{\Tg<div class="dvquote-text">}{\Tg</div>}{\Tg<div class="dvquote-ref">}{\Tg</div>}{\Tg</div>\IgnoreIndent}
+\Css{div.dvquote{
+margin:auto 5\%;
+text-align:center;
+margin: 0px auto;
+}
+div.dvquote-text{
+margin:1\%;
+font-style:italic;
+}
+div.dvquote-ref{
+font-variant:small-caps;
+}}
+
+
+
+% Index
+\renewcommand\dotfill{\ —\ }
+\Css{span.index-item{
+margin-top: 1em;
+font-style: italic;
+font-weight: bold;
+}}
+
+% Exponents
+\Css{.ecrm-0600{
+vertical-align:super;
+}}
+
+
+% Adjust fonts
+\Css{
+@font-face{
+font-family: "EB Garamond SC";
+font-variant: small-caps;
+src: url(fonts/EBGaramond12-SC.otf);
+}
+@font-face{
+font-family: "EB Garamond";
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+src: url(fonts/EBGaramond12-Regular.otf);
+}
+@font-face{
+font-family: "EB Garamond Italic";
+font-style: italic;
+font-weight: normal;
+font-variant: normal;
+src: url(fonts/EBGaramond12-Italic.otf);
+}
+@font-face{
+font-family: "EB Garamond Bold";
+font-style: normal;
+font-weight: bold;
+font-variant: normal;
+src: url(fonts/EBGaramond12-Bold.otf);
+}
+em, i, .ecti, .ecti1,
+.thanks, .signature, .dvquote-text, .dvprayer-text
+{
+font-family: "EB Garamond Italic", serif;
+}
+strong, b,
+.partToc a, .partToc, .likepartToc a, .likepartToc,
+.chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc, .addchapToc,
+.paragraphHead, .likeparagraphHead,
+.subparagraphHead, .likesubparagraphHead,
+.caption td.id,
+.ecbx-0700
+{
+font-family: "EB Garamond Bold", serif;
+}
+.small-caps, .booksubtitle,
+.dvday, .sectionHead,
+.dvquote-ref, .dvbox,
+.lettrine-line
+{
+font-family: "EB Garamond SC", serif;
+font-variant: small-caps;
+}
+}
+
