@@ -189,9 +189,10 @@
 
 % colon, frenchb's definition
 \makeatletter
-\initiate@active@char{≡}%
-\shorthandon{≡}
-\declare@shorthand{french}{≡}{%
+%\initiate@active@char{≡}%
+%\shorthandon{≡}
+%\declare@shorthand{french}{≡}{%
+\newcommand\frcolon{%
       \ifhmode
         \ifdim\lastskip>\z@
           \unskip\penalty\@M\Fcolonspace
@@ -200,8 +201,8 @@
         \fi
       \fi
       \string:\space}
-\declare@shorthand{system}{≡}{\string≡}
-\bbl@activate{≡}
+%\declare@shorthand{system}{≡}{\string≡}
+%\bbl@activate{≡}
 \makeatother
 
 
