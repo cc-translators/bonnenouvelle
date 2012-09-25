@@ -25,7 +25,7 @@
 \newcommand{\attrib}[1]{%
         \nopagebreak{\raggedleft\footnotesize #1\par}}
 
-\setlength\vleftskip{1em}
+\setlength\vleftskip{0.5em}
 
 
 \usepackage[breaklinks=true,unicode=true]{hyperref}
@@ -86,16 +86,16 @@
 \newlength{\inparbox}%
 \newlength{\vspaceparbox}%
 
-\newenvironment{dvquotes}{%
+\newenvironment{dvquotes}[1][\ornrule]{%
   \checkoddpage\ifoddpage\else\clearpage\fi%
-  \mbox{}\vfill\ornrule%
+  \mbox{}\vfill#1%
 }{%
   \vfill\mbox{}%
 }
 
 \newcommand{\dvquote}[3][0.9\textwidth]{%
   \setlength{\outparbox}{#1}%
-  \setlength{\vspaceparbox}{-0.07\inparbox}%
+  \vspace{-1.8\baselineskip}
   \begin{center}\parbox{\outparbox}{%
     \begin{Center}%
     \hyphenpenalty=10000%
