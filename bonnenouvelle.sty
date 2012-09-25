@@ -81,21 +81,29 @@
 % dvquote
 \usepackage{fancybox}
 \usepackage{ragged2e}
+\usepackage{ifoddpage}
 \newlength{\outparbox}%
 \newlength{\inparbox}%
 \newlength{\vspaceparbox}%
+
+\newenvironment{dvquotes}{%
+  \checkoddpage\ifoddpage\else\clearpage\fi%
+  \mbox{}\vfill\ornrule%
+}{%
+  \vfill\mbox{}%
+}
+
 \newcommand{\dvquote}[3][0.9\textwidth]{%
   \setlength{\outparbox}{#1}%
   \setlength{\vspaceparbox}{-0.07\inparbox}%
-  %\vfill
   \begin{center}\parbox{\outparbox}{%
     \begin{Center}%
     \hyphenpenalty=10000%
     \begin{itshape}#2\end{itshape}\\[1.2mm]
     \ocadr{}\textsc{#3}%
     \end{Center}%
-  }\end{center}%\vspace{\vspaceparbox}%
-  %\vfill
+  }\end{center}%
+  \ornrule%
 }
 
 % dvepigraph
