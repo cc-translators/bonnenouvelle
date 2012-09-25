@@ -11,7 +11,7 @@ DAYS=$(shell find $(CURDIR)/jours -type f -name '*.tex')
 
 # Ebook settings
 KINDLE_PATH=/documents/raphael
-AUTHOR=Chuck Smith
+AUTHOR=Wayne Taylor
 LANGUAGE=fr
 PUBDATE=$(shell date +'%Y-%m-%d')
 COVER=
