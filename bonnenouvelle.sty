@@ -67,7 +67,7 @@
 \setmainfont{EB Garamond}
 \fi
 
-\setlength{\jrnldaysepskip}{4cm}
+\setlength{\jrnldaysepskip}{3.5cm}
 \setlength{\jrnldayafterskip}{2\baselineskip plus 1fill}
 \makeatletter
 \renewcommand{\jrnl@seclblstyle}{\raggedleft\normalfont\scshape\large}
@@ -87,23 +87,24 @@
 \newlength{\vspaceparbox}%
 
 \newenvironment{dvquotes}{%
-  \checkoddpage\ifoddpage\else\clearpage\fi%
-  \mbox{}\vfill\ornrule%
+  %\checkoddpage\ifoddpage\else\clearpage\fi%
+  %\mbox{}\vfill\ornrule%
 }{%
-  \vfill\mbox{}%
+  %\vfill\mbox{}%
 }
 
 \newcommand{\dvquote}[3][0.9\textwidth]{%
   \setlength{\outparbox}{#1}%
   \setlength{\vspaceparbox}{-0.07\inparbox}%
   \begin{center}\parbox{\outparbox}{%
+    \ornrule%
     \begin{Center}%
     \hyphenpenalty=10000%
     \begin{itshape}#2\end{itshape}\\[1.2mm]
     \ocadr{}\textsc{#3}%
     \end{Center}%
   }\end{center}%
-  \ornrule%
+  %\ornrule%
 }
 
 % dvepigraph
