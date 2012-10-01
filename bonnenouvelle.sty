@@ -65,6 +65,8 @@
 \defaultfontfeatures{Ligatures=TeX}
 %\setmainfont{Minion Pro}
 \setmainfont{EB Garamond}
+%\newfontfamily\telegramfont{Source Sans Pro}
+\newfontfamily\telegramfont{Inconsolata}
 \fi
 
 \setlength{\jrnldaysepskip}{3.5cm}
@@ -256,3 +258,6 @@
 \patchcmd{\protected@iwrite}{\write}{\immediate\write}{}{}
 \patchcmd{\@Wrindex}{\protected@write}{\protected@iwrite}{}{}
 \makeatother
+
+% NdT
+\newcommand\NdT[1]{\footnote{NdT\frcolon{} #1}}
