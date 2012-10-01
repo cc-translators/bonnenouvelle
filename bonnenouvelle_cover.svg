@@ -32,8 +32,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.62755727"
-     inkscape:cx="1024.358"
-     inkscape:cy="280.40948"
+     inkscape:cx="578.32493"
+     inkscape:cy="89.191872"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="1024px"
@@ -2858,7 +2858,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:date>6th January 2007</dc:date>
         <dc:creator>
           <cc:Agent>
@@ -5166,7 +5166,7 @@ Marian Duffy</dc:title>
        style="opacity:0.66015625"
        id="g3587"
        inkscape:label="BookCover6x9_BW_150"
-       transform="matrix(1.2451646,0,0,-1.2451646,-212.94259,2199.0455)">
+       transform="matrix(1.2451646,0,0,-1.2451646,-212.94259,1959.0455)">
       <g
          id="g3589">
         <g
@@ -6528,214 +6528,218 @@ Marian Duffy</dc:title>
         </g>
       </g>
     </g>
-    <rect
-       y="553.27856"
-       x="415.89832"
-       height="109.95013"
-       width="181.65672"
-       id="rect7746"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1;filter:url(#filter8528)" />
     <g
-       style="fill:#000000"
-       id="barcode"
-       transform="matrix(1.2200698,0,0,1.2200698,-347.66802,39.692908)">
+       id="g5095"
+       transform="matrix(0.65615038,0,0,0.65615038,179.92267,212.70667)">
       <rect
-         id="barcode_bar1"
-         height="50"
-         width="1"
-         y="445"
-         x="653" />
-      <rect
-         id="barcode_bar3"
-         height="50"
-         width="1"
-         y="445"
-         x="655" />
-      <rect
-         id="barcode_bar5"
-         height="45"
-         width="3"
-         y="445"
-         x="657" />
-      <rect
-         id="barcode_bar7"
-         height="45"
-         width="2"
-         y="445"
-         x="661" />
-      <rect
-         id="barcode_bar9"
-         height="45"
-         width="1"
-         y="445"
-         x="666" />
-      <rect
-         id="barcode_bar11"
-         height="45"
-         width="1"
-         y="445"
-         x="669" />
-      <rect
-         id="barcode_bar13"
-         height="45"
-         width="2"
-         y="445"
-         x="672" />
-      <rect
-         id="barcode_bar15"
-         height="45"
-         width="2"
-         y="445"
-         x="675" />
-      <rect
-         id="barcode_bar17"
-         height="45"
-         width="1"
-         y="445"
-         x="680" />
-      <rect
-         id="barcode_bar19"
-         height="45"
-         width="2"
-         y="445"
-         x="682" />
-      <rect
-         id="barcode_bar21"
-         height="45"
-         width="3"
-         y="445"
-         x="685" />
-      <rect
-         id="barcode_bar23"
-         height="45"
-         width="1"
-         y="445"
-         x="690" />
-      <rect
-         id="barcode_bar25"
-         height="45"
-         width="4"
-         y="445"
-         x="692" />
-      <rect
-         id="barcode_bar27"
-         height="45"
-         width="1"
-         y="445"
-         x="697" />
-      <rect
-         id="barcode_bar29"
-         height="50"
-         width="1"
-         y="445"
-         x="699" />
-      <rect
-         id="barcode_bar31"
-         height="50"
-         width="1"
-         y="445"
-         x="701" />
-      <rect
-         id="barcode_bar33"
-         height="45"
-         width="3"
-         y="445"
-         x="703" />
-      <rect
-         id="barcode_bar35"
-         height="45"
-         width="1"
-         y="445"
-         x="707" />
-      <rect
-         id="barcode_bar37"
-         height="45"
-         width="3"
-         y="445"
-         x="710" />
-      <rect
-         id="barcode_bar39"
-         height="45"
-         width="1"
-         y="445"
-         x="714" />
-      <rect
-         id="barcode_bar41"
-         height="45"
-         width="1"
-         y="445"
-         x="717" />
-      <rect
-         id="barcode_bar43"
-         height="45"
-         width="1"
-         y="445"
-         x="720" />
-      <rect
-         id="barcode_bar45"
-         height="45"
-         width="1"
-         y="445"
-         x="724" />
-      <rect
-         id="barcode_bar47"
-         height="45"
-         width="1"
-         y="445"
-         x="727" />
-      <rect
-         id="barcode_bar49"
-         height="45"
-         width="1"
-         y="445"
-         x="731" />
-      <rect
-         id="barcode_bar51"
-         height="45"
-         width="3"
-         y="445"
-         x="734" />
-      <rect
-         id="barcode_bar53"
-         height="45"
-         width="1"
-         y="445"
-         x="738" />
-      <rect
-         id="barcode_bar55"
-         height="45"
-         width="1"
-         y="445"
-         x="740" />
-      <rect
-         id="barcode_bar57"
-         height="50"
-         width="1"
-         y="445"
-         x="745" />
-      <rect
-         id="barcode_bar59"
-         height="50"
-         width="1"
-         y="445"
-         x="747" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1;filter:url(#filter8528)"
+         id="rect7746"
+         width="181.65672"
+         height="109.95013"
+         x="415.89832"
+         y="553.27856" />
+      <g
+         transform="matrix(1.2200698,0,0,1.2200698,-347.66802,39.692908)"
+         id="barcode"
+         style="fill:#000000">
+        <rect
+           x="653"
+           y="445"
+           width="1"
+           height="50"
+           id="barcode_bar1" />
+        <rect
+           x="655"
+           y="445"
+           width="1"
+           height="50"
+           id="barcode_bar3" />
+        <rect
+           x="657"
+           y="445"
+           width="3"
+           height="45"
+           id="barcode_bar5" />
+        <rect
+           x="661"
+           y="445"
+           width="2"
+           height="45"
+           id="barcode_bar7" />
+        <rect
+           x="666"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar9" />
+        <rect
+           x="669"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar11" />
+        <rect
+           x="672"
+           y="445"
+           width="2"
+           height="45"
+           id="barcode_bar13" />
+        <rect
+           x="675"
+           y="445"
+           width="2"
+           height="45"
+           id="barcode_bar15" />
+        <rect
+           x="680"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar17" />
+        <rect
+           x="682"
+           y="445"
+           width="2"
+           height="45"
+           id="barcode_bar19" />
+        <rect
+           x="685"
+           y="445"
+           width="3"
+           height="45"
+           id="barcode_bar21" />
+        <rect
+           x="690"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar23" />
+        <rect
+           x="692"
+           y="445"
+           width="4"
+           height="45"
+           id="barcode_bar25" />
+        <rect
+           x="697"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar27" />
+        <rect
+           x="699"
+           y="445"
+           width="1"
+           height="50"
+           id="barcode_bar29" />
+        <rect
+           x="701"
+           y="445"
+           width="1"
+           height="50"
+           id="barcode_bar31" />
+        <rect
+           x="703"
+           y="445"
+           width="3"
+           height="45"
+           id="barcode_bar33" />
+        <rect
+           x="707"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar35" />
+        <rect
+           x="710"
+           y="445"
+           width="3"
+           height="45"
+           id="barcode_bar37" />
+        <rect
+           x="714"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar39" />
+        <rect
+           x="717"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar41" />
+        <rect
+           x="720"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar43" />
+        <rect
+           x="724"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar45" />
+        <rect
+           x="727"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar47" />
+        <rect
+           x="731"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar49" />
+        <rect
+           x="734"
+           y="445"
+           width="3"
+           height="45"
+           id="barcode_bar51" />
+        <rect
+           x="738"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar53" />
+        <rect
+           x="740"
+           y="445"
+           width="1"
+           height="45"
+           id="barcode_bar55" />
+        <rect
+           x="745"
+           y="445"
+           width="1"
+           height="50"
+           id="barcode_bar57" />
+        <rect
+           x="747"
+           y="445"
+           width="1"
+           height="50"
+           id="barcode_bar59" />
+        <text
+           x="700"
+           y="500"
+           style="font-size:9px;text-align:center;text-anchor:middle"
+           xml:space="preserve"
+           id="barcode_bottomtext">9    782953    998856       </text>
+      </g>
       <text
-         id="barcode_bottomtext"
-         xml:space="preserve"
-         style="font-size:9px;text-align:center;text-anchor:middle"
-         y="500"
-         x="700">9    782953    998856       </text>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
-       x="437.60669"
-       y="575.28668"
-       id="text28686"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan28688"
+         sodipodi:linespacing="125%"
+         id="text28686"
+         y="575.28668"
          x="437.60669"
-         y="575.28668">ISBN: 978-2-9539988-5-6</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
+         xml:space="preserve"><tspan
+           y="575.28668"
+           x="437.60669"
+           id="tspan28688"
+           sodipodi:role="line">ISBN: 978-2-9539988-5-6</tspan></text>
+    </g>
   </g>
 </svg>
