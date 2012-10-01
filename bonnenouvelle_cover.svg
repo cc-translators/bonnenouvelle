@@ -31,9 +31,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.62755727"
-     inkscape:cx="578.32493"
-     inkscape:cy="89.191872"
+     inkscape:zoom="0.44375"
+     inkscape:cx="553.22581"
+     inkscape:cy="337.51107"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="1024px"
@@ -2900,12 +2900,12 @@ Marian Duffy</dc:title>
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <rect
-       y="-332.15448"
+       y="-373.95834"
        x="618.75"
-       height="1232.809"
+       height="1319.5402"
        width="40"
        id="rect5177"
-       style="fill:none;stroke:#000000;stroke-width:0.9234789;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.77043678, 0.92347893;stroke-dashoffset:0" />
+       style="fill:none;stroke:#000000;stroke-width:0.95541131;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.86623415, 0.95541138;stroke-dashoffset:0" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:6.14370871;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect3960"
@@ -4552,14 +4552,27 @@ Marian Duffy</dc:title>
        id="rect2400-2"
        style="fill:url(#linearGradient4913);fill-opacity:1;stroke:none" />
     <text
-       transform="matrix(0,1,-1,0,0,-10)"
+       sodipodi:linespacing="100%"
+       id="text4318-0"
+       y="87.533211"
+       x="807.08539"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#80ffe6;fill-opacity:1;stroke:none;filter:url(#filter5059);font-family:junction regular;-inkscape-font-specification:junction regular"
+       xml:space="preserve"
+       transform="matrix(0,-1,1,0,556.12179,1143.2792)"><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;text-anchor:end;fill:#80ffe6;fill-opacity:1;font-family:junction regular;-inkscape-font-specification:junction regular"
+         id="tspan4322-4"
+         y="87.533211"
+         x="807.08539"
+         sodipodi:role="line">Bonne nouvelle d’une grande joie</tspan></text>
+    <text
+       transform="matrix(0,-1,1,0,1277.365,679.4125)"
        sodipodi:linespacing="124%"
        id="text5155-3"
        y="-633.71002"
        x="452.45374"
-       style="font-size:46.88104248px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:124.00000095%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter5071);font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:124.00000095%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter5071);font-family:junction regular;-inkscape-font-specification:junction regular"
        xml:space="preserve"><tspan
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:junction regular;-inkscape-font-specification:junction regular"
          y="-633.71002"
          x="452.45374"
          id="tspan5157-9"
@@ -4616,19 +4629,6 @@ Marian Duffy</dc:title>
          d="m 449,89.094482 c 0,3.313709 -2.68629,6 -6,6 -3.31371,0 -6,-2.686291 -6,-6 0,-3.313708 2.68629,-6 6,-6 3.31371,0 6,2.686292 6,6 z"
          transform="matrix(0.25,0,0,0.25,294.75,24.3209)" />
     </g>
-    <text
-       transform="matrix(0,1,-1,0,0,0)"
-       sodipodi:linespacing="100%"
-       id="text4318-0"
-       y="-633.74597"
-       x="249.16064"
-       style="font-size:80.36750031px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter5059);font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
-       xml:space="preserve"><tspan
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;text-anchor:end;fill:#ffffff;fill-opacity:1;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
-         id="tspan4322-4"
-         y="-633.74597"
-         x="249.16064"
-         sodipodi:role="line">Bonne nouvelle d’une grande joie</tspan></text>
     <g
        transform="matrix(0.36043687,0,0,0.36043687,1118.3391,192.22817)"
        id="g4257">
@@ -5166,7 +5166,7 @@ Marian Duffy</dc:title>
        style="opacity:0.66015625"
        id="g3587"
        inkscape:label="BookCover6x9_BW_150"
-       transform="matrix(1.2451646,0,0,-1.2451646,-212.94259,1959.0455)">
+       transform="matrix(1.2451646,0,0,-1.2451646,-212.94259,1879.0455)">
       <g
          id="g3589">
         <g
@@ -6740,6 +6740,33 @@ Marian Duffy</dc:title>
            x="437.60669"
            id="tspan28688"
            sodipodi:role="line">ISBN: 978-2-9539988-5-6</tspan></text>
+    </g>
+    <g
+       id="g6382"
+       transform="matrix(0,-0.93199213,-0.93199213,0,671.26545,306.35563)">
+      <text
+         transform="scale(1,-1)"
+         sodipodi:linespacing="83.999997%"
+         id="text2991-97-9-1-5-9"
+         y="-37.169209"
+         x="314.42654"
+         style="font-size:13.20310402px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:83.99999738%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Capitals O;-inkscape-font-specification:Linux Libertine Capitals O Bold"
+         xml:space="preserve"><tspan
+           style="font-size:13.20310402px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:83.99999738%;fill:#ffffff;fill-opacity:1;font-family:Linux Libertine Capitals O;-inkscape-font-specification:Linux Libertine Capitals O Bold"
+           id="tspan2995-0-0-2-5-0"
+           y="-37.169209"
+           x="314.42654"
+           sodipodi:role="line">La Colombe</tspan><tspan
+           style="font-size:13.20310402px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:83.99999738%;fill:#ffffff;fill-opacity:1;font-family:Linux Libertine Capitals O;-inkscape-font-specification:Linux Libertine Capitals O Bold"
+           id="tspan2999-3-7-2-7-5"
+           y="-26.078602"
+           x="314.42654"
+           sodipodi:role="line">      Calvary</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3050-3-0-7-1-2"
+         d="m 320.33783,35.174842 c -0.0479,-0.009 -0.091,-0.133334 -0.1319,-0.372352 -0.0366,-0.214077 -0.17615,-0.701624 -0.31058,-1.083661 -0.13442,-0.382037 -0.36441,-1.050021 -0.51094,-1.482731 l -0.26549,-0.786448 -0.18701,-0.03507 c -0.10267,-0.01925 -0.41933,-0.01857 -0.70296,0.0017 -1.35727,0.09688 -2.05972,0.446802 -2.14228,1.065296 -0.0231,0.173263 -0.0536,0.224499 -0.14193,0.2371 -0.0951,0.01356 -0.11844,-0.01843 -0.1486,-0.207047 -0.056,-0.350218 -0.35491,-0.940518 -0.89498,-1.769925 -0.58695,-0.901387 -0.73953,-1.249482 -0.77977,-1.781614 -0.10024,-1.325377 0.6227,-2.251456 1.99701,-2.556376 0.49782,-0.11045 1.47887,-0.158746 2.03541,-0.100184 l 0.44082,0.04675 0,-0.273837 c 0,-0.586711 0.25171,-1.02973 0.67791,-1.197206 0.21897,-0.08604 0.30492,-0.298057 0.27384,-0.672904 -0.0366,-0.441484 0.0736,-0.375623 0.35565,0.212058 0.36711,0.764886 0.69348,1.079978 1.36919,1.319095 0.31526,0.111563 0.43913,0.121656 1.54451,0.126901 1.16358,0.0055 1.21616,0.01065 1.62466,0.151946 1.59385,0.551298 2.63458,1.906487 2.94209,3.828715 0.11508,0.71944 0.12069,0.694616 -0.13693,0.694616 -0.18366,0 -0.26135,-0.03789 -0.47921,-0.233767 -0.56321,-0.506372 -1.02854,-0.617377 -2.19905,-0.519289 -0.81954,0.06868 -1.41429,0.03503 -1.76993,-0.100184 -0.0777,-0.02954 -0.14192,-0.03727 -0.14192,-0.01837 0,0.130031 0.93619,1.690534 1.66974,2.785131 0.20356,0.303762 0.36202,0.558989 0.35231,0.566042 -0.01,0.007 -0.10374,0.06386 -0.20871,0.126901 l -0.19036,0.115217 -0.28218,-0.108538 c -1.74774,-0.664083 -3.0496,-0.06045 -3.47139,1.607962 -0.0724,0.286491 -0.13274,0.424273 -0.18702,0.414096 z m 0.19871,-2.239122 c 0.0194,0.0019 0.0381,-0.01081 0.0634,-0.03006 0.36966,-0.280849 1.21629,-0.491419 2.15063,-0.534318 0.68782,-0.03158 0.70736,-0.03478 0.67625,-0.1436 -0.0642,-0.224434 -0.59009,-1.040647 -1.24396,-1.928545 -0.36791,-0.499591 -0.76423,-1.059461 -0.87996,-1.24396 -0.20482,-0.326554 -0.20787,-0.338247 -0.11354,-0.442483 0.0533,-0.05889 0.17688,-0.157775 0.27551,-0.218734 l 0.18033,-0.110205 0.27885,0.26215 c 0.15309,0.144244 0.39121,0.316732 0.53098,0.38404 0.53714,0.258671 0.7247,0.282302 2.52465,0.32226 0.94039,0.02088 1.71609,0.03431 1.72317,0.03005 0.007,-0.0043 -0.0248,-0.149919 -0.0701,-0.32393 -0.28077,-1.077951 -1.43272,-2.158611 -2.70665,-2.538008 -0.43106,-0.128372 -0.86199,-0.147828 -1.69813,-0.08014 -0.91257,0.07386 -1.44821,-0.117841 -2.03708,-0.726339 -0.16576,-0.17128 -0.31002,-0.310199 -0.3206,-0.3089 -0.0106,0.0011 -0.10625,0.0476 -0.21205,0.103523 -0.37264,0.196957 -0.47229,0.556868 -0.30222,1.097018 0.15985,0.507734 0.16236,0.556151 0.0234,0.619474 -0.0984,0.04483 -0.20429,0.03316 -0.47922,-0.05176 -0.83658,-0.258393 -1.74145,-0.341466 -2.34599,-0.215401 -0.64193,0.133872 -1.23643,0.544664 -1.50276,1.036912 -0.17146,0.316899 -0.16644,1.227924 0.01,1.789964 0.1,0.318478 0.66697,1.682974 0.72801,1.751559 0.008,0.0088 0.0921,-0.05523 0.187,-0.141928 0.35794,-0.326925 1.21606,-0.426168 2.96213,-0.343968 l 0.90333,0.04341 0.0701,0.293877 c 0.0386,0.16163 0.18641,0.608781 0.32727,0.995164 0.18483,0.507024 0.23908,0.647054 0.29721,0.652872 z"
+         style="fill:#ffffff;fill-opacity:1" />
     </g>
   </g>
 </svg>
