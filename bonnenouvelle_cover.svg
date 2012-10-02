@@ -31,9 +31,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.1109375"
-     inkscape:cx="750.19113"
-     inkscape:cy="1485.0734"
+     inkscape:zoom="1.2551145"
+     inkscape:cx="715.92424"
+     inkscape:cy="400.41801"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="1024px"
@@ -50,6 +50,10 @@
      inkscape:window-maximized="1" />
   <defs
      id="defs4">
+    <color-profile
+       name="ISO-Coated-v2-300---basICColor-"
+       xlink:href="/home/rpinson/.local/share/color/icc/FOGRA39L.icc"
+       id="color-profile5107" />
     <linearGradient
        id="linearGradient5167"
        inkscape:collect="always">
@@ -1798,7 +1802,7 @@
        x2="1264.3757"
        y1="326.9726"
        x1="-27.511902"
-       gradientTransform="matrix(1.1162153,0,0,1.1162153,-51.553119,-78.72178)"
+       gradientTransform="matrix(1.1162153,0,0,1.1162153,-51.553119,-80.721841)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient3969"
        xlink:href="#linearGradient11539"
@@ -2930,7 +2934,7 @@ Marian Duffy</dc:title>
        x="-95.779053"
        y="-249.79874" />
     <rect
-       style="fill:#0a57a4;fill-opacity:1;stroke:none;"
+       style="fill:#0e57a3 icc-color(ISO-Coated-v2-300---basICColor-, 0.91931029, 0.6361181, 0.03567559, 0.00529488);fill-opacity:1;stroke:none"
        id="rect13381"
        width="1442.0247"
        height="1057.2844"
@@ -2939,7 +2943,7 @@ Marian Duffy</dc:title>
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       y="-236.98564"
+       y="-238.98564"
        x="-82.262329"
        height="1046.4713"
        width="1442.0247"
@@ -2951,7 +2955,7 @@ Marian Duffy</dc:title>
        inkscape:connector-curvature="0"
        id="path3880"
        d="M 497.47946,995.95286 523.04772,482.53403 326.40007,580.2296 515.44168,469.35998 352.42179,378.13511 l 170.62593,78.05083 6.89025,-191.10411 8.32182,191.10411 147.22267,-76.25057 -139.61663,89.42461 156.09416,102.50899 -163.7002,-89.33494 11.19771,467.2062 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter4961)" />
+       style="fill:#ffffff icc-color(ISO-Coated-v2-300---basICColor-, 0, 0, 0, 0);fill-opacity:1;stroke:none;filter:url(#filter4961)" />
     <path
        inkscape:connector-curvature="0"
        d="m 969.9925,280.31718 0,0.91688 -0.1869,0 0,-0.91688 -0.3133,0 0,-0.18446 0.8132,0 0,0.18446 -0.313,0 z m 1.303,0.91688 0,-0.58132 c 0,-0.039 0,-0.0866 0,-0.1261 -0.013,0.0336 -0.031,0.0729 -0.044,0.10983 l -0.2743,0.63134 -0.2686,-0.63134 c -0.013,-0.0369 -0.031,-0.0761 -0.044,-0.10715 0,0.0397 0,0.0872 0,0.12339 l 0,0.58133 -0.1788,0 0,-1.10134 0.1874,0 0.2487,0.57002 c 0.02,0.048 0.042,0.10983 0.058,0.15112 0.016,-0.0446 0.04,-0.10034 0.058,-0.15112 l 0.2436,-0.57002 0.1899,0 0,1.10134 -0.1786,0 0,0 z"
@@ -4498,7 +4502,7 @@ Marian Duffy</dc:title>
        sodipodi:nodetypes="cccccccccccccccc"
        id="path5682"
        d="m 1373.2791,504.05883 c -43.5086,-37.49192 -109.4713,-24.87138 -157.0855,-57.74022 -41.1657,-18.62047 -78.5562,-86.7523 -117.0039,-27.40878 -51.3378,21.52466 -80.2281,97.97554 -137.82181,85.86706 -26.79105,3.11219 -36.90679,47.09472 -126.75817,18.4583 -46.31835,-11.88845 -81.96919,60.17716 -130.55964,30.66524 -32.19512,-29.92301 -61.61726,-52.60144 -107.07497,-38.35269 -68.72341,-39.09233 -70.1473,-28.53185 -122.20253,4.37185 -38.07882,47.36345 -82.95464,11.52279 -146.75781,42.69481 -50.2192,4.82359 -96.20619,-52.39683 -116.72071,-62.56824 C 158.4294,499.48042 177.6572,406.67367 121.2835,443.74205 68.681746,462.26925 61.108091,348.86532 10.685668,407.1408 c -28.521857,23.78101 -71.680429,50.73055 -79.43382,84.92124 0,106.94857 0,213.89719 0,320.84576 480.675762,0.77438 961.351542,1.54875 1442.027252,2.32314 0,-103.72403 0,-207.44807 0,-311.17211 z"
-       style="opacity:0.79012346;fill:url(#radialGradient4303);fill-opacity:1;stroke:none;filter:url(#filter4187)" />
+       style="opacity:0.79012343;fill:url(#radialGradient4303);fill-opacity:1;stroke:none;filter:url(#filter4187)" />
     <g
        style="filter:url(#filter3846)"
        id="g5435">
@@ -4556,10 +4560,10 @@ Marian Duffy</dc:title>
        id="text4318-0"
        y="87.533211"
        x="807.08539"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#80ffe6;fill-opacity:1;stroke:none;filter:url(#filter5059);font-family:junction regular;-inkscape-font-specification:junction regular"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#83c9ce icc-color(ISO-Coated-v2-300---basICColor-, 0.50029755, 0.02642863, 0.22194247, 0.00038148);fill-opacity:1;stroke:none;filter:url(#filter5059);font-family:junction regular;-inkscape-font-specification:junction regular"
        xml:space="preserve"
        transform="matrix(0,-1,1,0,556.12179,1143.2792)"><tspan
-         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;text-anchor:end;fill:#80ffe6;fill-opacity:1;font-family:junction regular;-inkscape-font-specification:junction regular"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;text-anchor:end;fill:#83c9ce icc-color(ISO-Coated-v2-300---basICColor-, 0.50029755, 0.02642863, 0.22194247, 0.00038148);fill-opacity:1;font-family:junction regular;-inkscape-font-specification:junction regular"
          id="tspan4322-4"
          y="87.533211"
          x="807.08539"
@@ -4570,9 +4574,9 @@ Marian Duffy</dc:title>
        id="text5155-3"
        y="-633.71002"
        x="452.45374"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:124.00000095%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter5071);font-family:junction regular;-inkscape-font-specification:junction regular"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:124.00000095000000044%;letter-spacing:0px;word-spacing:0px;fill:#83c9ce icc-color(ISO-Coated-v2-300---basICColor-, 0.50029755, 0.02642863, 0.22194247, 0.00038148);fill-opacity:1;stroke:none;filter:url(#filter5071);font-family:junction regular;-inkscape-font-specification:junction regular"
        xml:space="preserve"><tspan
-         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:junction regular;-inkscape-font-specification:junction regular"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#83c9ce icc-color(ISO-Coated-v2-300---basICColor-, 0.50029755, 0.02642863, 0.22194247, 0.00038148);fill-opacity:1;font-family:junction regular;-inkscape-font-specification:junction regular"
          y="-633.71002"
          x="452.45374"
          id="tspan5157-9"
@@ -4894,15 +4898,15 @@ Marian Duffy</dc:title>
        id="text5155"
        y="184.17511"
        x="812.51257"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:124.00000095000000044%;letter-spacing:0px;word-spacing:0px;fill:#bc8000;fill-opacity:1;stroke:none;font-family:junction regular;-inkscape-font-specification:junction regular;filter:url(#filter29723)"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:124.00000095%;letter-spacing:0px;word-spacing:0px;fill:#f8f7f7 icc-color(ISO-Coated-v2-300---basICColor-, 0, 0.00401606, 0, 0.04016064);fill-opacity:1;stroke:none;filter:url(#filter29723);font-family:junction regular;-inkscape-font-specification:junction regular"
        xml:space="preserve"><tspan
-         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:junction regular;-inkscape-font-specification:junction regular;"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#f8f7f7 icc-color(ISO-Coated-v2-300---basICColor-, 0, 0.00401606, 0, 0.04016064);fill-opacity:1;font-family:junction regular;-inkscape-font-specification:junction regular"
          y="184.17511"
          x="812.51257"
          id="tspan5157"
          sodipodi:role="line">Wayne Taylor</tspan></text>
     <path
-       style="opacity:0.59259260999999996;fill:#fff6d5;fill-opacity:1;stroke:none;filter:url(#filter5014)"
+       style="opacity:0.59259261;fill:#fcf5d4 icc-color(ISO-Coated-v2-300---basICColor-, 0.01727321, 0.02885481, 0.21194781, 0);fill-opacity:1;stroke:none;filter:url(#filter5014)"
        d="m 523.40013,524.72274 -0.35241,-42.18871 -196.64765,97.69557 189.04161,-110.86962 -163.01989,-91.22487 170.62593,78.05083 6.89025,-191.10411 8.32182,191.10411 147.22267,-76.25057 -139.61663,89.42461 156.09416,102.50899 -163.7002,-89.33494 -7.81077,255.3353 z"
        id="path4967"
        inkscape:connector-curvature="0"
@@ -4914,7 +4918,7 @@ Marian Duffy</dc:title>
        inkscape:connector-curvature="0"
        id="path5018"
        d="m 523.40013,524.72274 -0.35241,-42.18871 -196.64765,97.69557 189.04161,-110.86962 -163.01989,-91.22487 170.62593,78.05083 6.89025,-191.10411 8.32182,191.10411 147.22267,-76.25057 -139.61663,89.42461 156.09416,102.50899 -163.7002,-89.33494 -7.81077,255.3353 z"
-       style="opacity:0.59259261;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter5020)" />
+       style="opacity:0.59259260999999996;fill:#ffffff icc-color(ISO-Coated-v2-300---basICColor-, 0, 0, 0, 0);fill-opacity:1;stroke:none;filter:url(#filter5020)" />
     <g
        transform="translate(-3.8146973e-6,220)"
        id="g12642">
@@ -5112,7 +5116,7 @@ Marian Duffy</dc:title>
        id="text4201"
        y="59.51556"
        x="810.9765"
-       style="font-size:46.65829848999999285px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#80ffe6;fill-opacity:1;stroke:none;font-family:junction regular;-inkscape-font-specification:junction regular;filter:url(#filter29783)"
+       style="font-size:46.65829848999999285px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#83c9ce icc-color(ISO-Coated-v2-300---basICColor-, 0.50029755, 0.02642863, 0.22194247, 0.00038148);fill-opacity:1;stroke:none;filter:url(#filter29783);font-family:junction regular;-inkscape-font-specification:junction regular"
        xml:space="preserve"><tspan
          y="59.51556"
          x="810.9765"
@@ -5123,7 +5127,7 @@ Marian Duffy</dc:title>
        id="text4205"
        y="101.24185"
        x="759.33026"
-       style="font-size:65.32161713000002123px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#80ffe6;fill-opacity:1;stroke:none;font-family:junction regular;-inkscape-font-specification:junction regular;filter:url(#filter29771)"
+       style="font-size:65.32161713000002123px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#82cace icc-color(ISO-Coated-v2-300---basICColor-, 0.50200802, 0.02534524, 0.21912351, 0);fill-opacity:1;stroke:none;filter:url(#filter29771);font-family:junction regular;-inkscape-font-specification:junction regular"
        xml:space="preserve"><tspan
          y="101.24185"
          x="759.33026"
@@ -5134,7 +5138,7 @@ Marian Duffy</dc:title>
        id="text4209"
        y="126.27762"
        x="822.36163"
-       style="font-size:27.99497986000000083px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#80ffe6;fill-opacity:1;stroke:none;font-family:junction regular;-inkscape-font-specification:junction regular;filter:url(#filter29759)"
+       style="font-size:27.99497986000000083px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#83c9ce icc-color(ISO-Coated-v2-300---basICColor-, 0.50029755, 0.02642863, 0.22194247, 0.00038148);fill-opacity:1;stroke:none;filter:url(#filter29759);font-family:junction regular;-inkscape-font-specification:junction regular"
        xml:space="preserve"><tspan
          y="126.27762"
          x="822.36163"
@@ -5145,7 +5149,7 @@ Marian Duffy</dc:title>
        id="text4213"
        y="156.85153"
        x="775.93134"
-       style="font-size:46.65829848999999285px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#80ffe6;fill-opacity:1;stroke:none;font-family:junction regular;-inkscape-font-specification:junction regular;filter:url(#filter29747)"
+       style="font-size:46.65829848999999285px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#83c9ce icc-color(ISO-Coated-v2-300---basICColor-, 0.50029755, 0.02642863, 0.22194247, 0.00038148);fill-opacity:1;stroke:none;filter:url(#filter29747);font-family:junction regular;-inkscape-font-specification:junction regular"
        xml:space="preserve"><tspan
          y="156.85153"
          x="775.93134"
@@ -5156,7 +5160,7 @@ Marian Duffy</dc:title>
        id="text4217"
        y="189.81279"
        x="938.24664"
-       style="font-size:65.32161713000002123px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#80ffe6;fill-opacity:1;stroke:none;font-family:junction regular;-inkscape-font-specification:junction regular;filter:url(#filter29735)"
+       style="font-size:65.32161713000002123px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#83c9ce icc-color(ISO-Coated-v2-300---basICColor-, 0.50029755, 0.02642863, 0.22194247, 0.00038148);fill-opacity:1;stroke:none;filter:url(#filter29735);font-family:junction regular;-inkscape-font-specification:junction regular"
        xml:space="preserve"><tspan
          y="189.81279"
          x="938.24664"
