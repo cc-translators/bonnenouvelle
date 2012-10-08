@@ -6,6 +6,10 @@
 \HCode{<br class="pagebreak" />}
 }
 
+% Font commands
+\newcommand\telegramfont{}
+\newcommand\liningfont{}
+
 % Disable ligatures for small caps
 \DisableLigatures{encoding = *, family = * }
 
@@ -202,4 +206,5 @@ font-family: "EB Garamond SC", serif;
 font-variant: small-caps;
 }
 }
+
 
