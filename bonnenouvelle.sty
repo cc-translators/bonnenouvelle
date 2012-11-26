@@ -247,8 +247,7 @@
   \forcsvlist\decodesec{#1}}
 \newcommand{\decodesec}[1]{%
   \ifthenelse{\secondparam=1}{, }{}%
-  %\hyperlink{page.#1}{\mbox{\textsc{\getpagedate{#1}}}}%
-  \mbox{\textsc{\getpagedate{#1}}}
+  \hyperlink{day.#1}{\mbox{\textsc{\getpagedate{#1}}}}%
   \def\secondparam{1}}
 
 % Patch imakeidx to map verse num instead of page

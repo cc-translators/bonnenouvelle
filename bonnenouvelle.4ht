@@ -101,7 +101,7 @@ display: none;
 \h:HTMLsecHook
 }
 \Configure{HTMLsecHook}{%
-\ifvmode\IgnorePar\fi\EndP\Tg<h3 class="dvday" id="page.\thepage">}{\Tg<div class="dvdaynum">\Tg<a id="chap.\thechapter-sec.\thesection">}{\Tg</a>\Tg</div>}{\Tg<span class="dvdaydash">}{\Tg</span>}{\Tg<span class="dvdaytitle">}{\Tg</span>}{\Tg</h3>\IgnoreIndent}
+\ifvmode\IgnorePar\fi\EndP\Tg<h3 class="dvday" id="page.\thepage">}{\Tg<div class="dvdaynum">\Tg<a id="day.\thejrnlday">}{\Tg</a>\Tg</div>}{\Tg<span class="dvdaydash">}{\Tg</span>}{\Tg<span class="dvdaytitle">}{\Tg</span>}{\Tg</h3>\IgnoreIndent}
 \Css{h3.dvday{
 font-variant:small-caps;
 }
@@ -193,6 +193,7 @@ column-count:2;
 column-gap:20px;
 -moz-column-gap:20px;
 -webkit-column-gap:20px;
+margin: auto 5\%;
 }
 div.epigraph2cols span{
 width: 100\%;
