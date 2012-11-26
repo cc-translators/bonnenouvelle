@@ -8,12 +8,16 @@
 
 \begin{document}
 
-%\maketitle
-\setlength{\parindent}{0em}
-\include{fake_title}
-\cleardoublepage
-\include{title}
-\include{copyright}
+
+\ifluatex
+  %\maketitle
+  \setlength{\parindent}{0em}
+  \include{fake_title}
+  \cleardoublepage
+  \include{title}
+  \include{copyright}
+\fi
+
 \include{dedication}
 
 \setlength{\parindent}{1em}
@@ -78,13 +82,15 @@
 \printindex
 
 % depot legal
-\pagestyle{empty}
-%\cleardoublepage
-%\mbox{}
-%\clearpage
-\include{depotlegal}
+\ifluatex
+  \pagestyle{empty}
+  %\cleardoublepage
+  %\mbox{}
+  %\clearpage
+  \include{depotlegal}
 
-\clearpage
-\mbox{}
+  \clearpage
+  \mbox{}
+\fi
 
 \end{document}

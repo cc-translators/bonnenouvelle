@@ -119,6 +119,7 @@ display:none;
 % dvquote
 \NewConfigure{dvquote}{6}
 \renewcommand\dvquote[3][]{%
+\ornrule%
 \a:dvquote\b:dvquote#2\c:dvquote
 \d:dvquote\ocadr{}\textsc{#3}\e:dvquote
 \f:dvquote
@@ -167,26 +168,32 @@ vertical-align:super;
   }{\dvepigraphrefstyle{#3}}
   \end{savenotes}
 \or% 2, use multicols
-  \begin{savenotes}
-  \epigraph{%
-    \setlength{\parindent}{1em}
-    #2
-  }{\dvepigraphrefstyle{#3}}
-  \end{savenotes}
+  \ifvmode\IgnorePar\fi\EndP\Tg<div class="epigraph2cols">
+  #2
+  \HRule
+  \dvepigraphrefstyle{#3}
+  \Tg</div>\IgnoreIndent
 \fi
 \par\vspace{0pt plus 1fil}
 }
 
+\Css{div.epigraph2cols{
+column-count:2;
+-moz-column-count:2;
+-webkit-column-count:2;
+column-gap:20px;
+-moz-column-gap:20px;
+-webkit-column-gap:20px;
+}}
+
 
 % Ornrule
-\renewcommand{\ornrule}{%
-\HCode{<hr class="ornrule">}
+\renewcommand{\ornfont}[1]{%
+\HCode{<span class="ornrule">#1</span>}
 }
-\Css{hr.ornrule{
-height:0.6em;
-background:url(dvrule.png) no-repeat center;
-border:0;
-background-size:auto 100\%;
+\Css{span.ornrule{
+font-family: "Ornaments";
+font-size: 96pt;
 }}
 
 
@@ -240,6 +247,10 @@ font-family: "EB Garamond Bold", serif;
 {
 font-family: "EB Garamond SC", serif;
 font-variant: small-caps;
+}
+@font-face{
+font-family: "Ornaments";
+src: url(fonts/HoodHeavenOrnamentsOneSSi.ttf);
 }
 }
 
