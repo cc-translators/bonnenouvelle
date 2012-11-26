@@ -101,7 +101,7 @@ display: none;
 \h:HTMLsecHook
 }
 \Configure{HTMLsecHook}{%
-\ifvmode\IgnorePar\fi\EndP\Tg<h3 class="dvday" id="page.\thepage">}{\Tg<div class="dvdaynum">\Tg<a id="day.\thejrnlday">}{\Tg</a>\Tg</div>}{\Tg<span class="dvdaydash">}{\Tg</span>}{\Tg<span class="dvdaytitle">}{\Tg</span>}{\Tg</h3>\IgnoreIndent}
+\ifvmode\IgnorePar\fi\EndP\Tg<h3 class="dvday" id="page.\thepage">}{\Tg<span class="dvdaynum">\Tg<a id="day.\thejrnltotalday">}{\Tg</a>\Tg</span>}{\Tg<span class="dvdaydash">}{\Tg</span>}{\Tg<span class="dvdaytitle">}{\Tg</span>}{\Tg</h3>\IgnoreIndent}
 \Css{h3.dvday{
 font-variant:small-caps;
 }
@@ -114,8 +114,10 @@ text-align:center;
 h3.dvday span.dvdaydash{
 display:none;
 }
-div.dvdaynum{
+span.dvdaynum{
+width: 100\%;
 text-align: right;
+display: block;
 padding: 50px 0;
 }}
 \renewcommand\section[2][]{\stepcounter{section}}
@@ -134,7 +136,9 @@ display:none;
 \f:dvquote
 }
 \Configure{dvquote}{%
-\ifvmode\IgnorePar\fi\EndP\Tg<div class="dvquote">}{\Tg<div class="dvquote-text">}{\Tg</div>}{\Tg<div class="dvquote-ref">}{\Tg</div>}{\Tg</div>\IgnoreIndent}
+\ifvmode\IgnorePar\fi\EndP\Tg<div class="dvquote">}{\Tg<div class="dvquote-text">}
+{\ifvmode\IgnorePar\fi\EndP\Tg</div>}{\Tg<div class="dvquote-ref">}
+{\ifvmode\IgnorePar\fi\EndP\Tg</div>}{\Tg</div>\IgnoreIndent}
 \Css{div.dvquote{
 margin:auto 5\%;
 text-align:center;
@@ -179,7 +183,7 @@ vertical-align:super;
 \or% 2, use multicols
   \ifvmode\IgnorePar\fi\EndP\Tg<div class="epigraph2cols">
   #2
-  \HRule
+  \ifvmode\IgnorePar\fi\EndP\HRule
   \dvepigraphrefstyle{#3}
   \Tg</div>\IgnoreIndent
 \fi
@@ -210,6 +214,11 @@ text-align: right;
 font-family: "Ornaments";
 font-size: 96pt;
 }}
+
+% Refrain for songs
+\renewcommand{\refrain}{%
+\ifvmode\IgnorePar\fi\EndP\HCode{<div class="refrain">}\textsc{Refrain\frcolon{}}\HCode{</div>}
+}
 
 
 % Adjust fonts
