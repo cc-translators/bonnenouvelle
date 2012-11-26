@@ -111,6 +111,8 @@
 
 % dvepigraph
 \newcommand{\dvepigraphrefstyle}{\textsc}
+\newcommand{\dvepigraphtwocolsrule}{\rule[.5ex]{0.95\epigraphwidth}{\epigraphrule}
+}
 \newcommand{\dvepigraph}[3][1]{%
 \par\vspace{0pt plus -1fill}
 \ifcase#1
@@ -128,7 +130,7 @@
     #2
 
     \raggedleft{%
-    \rule[.5ex]{0.95\epigraphwidth}{\epigraphrule}
+    \dvepigraphtwocolsrule
     \dvepigraphrefstyle{#3}}
   \end{multicols}
 \fi

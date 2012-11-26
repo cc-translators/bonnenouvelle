@@ -154,6 +154,42 @@ vertical-align:super;
 }}
 
 
+% dvepigraph
+\renewcommand{\dvepigraph}[3][1]{%
+\par\vspace{0pt plus -1fill}
+\ifcase#1
+% 0: do nothing
+\or% 1: use epigraph
+  \begin{savenotes}
+  \epigraph{%
+    \setlength{\parindent}{1em}
+    #2
+  }{\dvepigraphrefstyle{#3}}
+  \end{savenotes}
+\or% 2, use multicols
+  \begin{savenotes}
+  \epigraph{%
+    \setlength{\parindent}{1em}
+    #2
+  }{\dvepigraphrefstyle{#3}}
+  \end{savenotes}
+\fi
+\par\vspace{0pt plus 1fil}
+}
+
+
+% Ornrule
+\renewcommand{\ornrule}{%
+\HCode{<hr class="ornrule">}
+}
+\Css{hr.ornrule{
+height:0.6em;
+background:url(dvrule.png) no-repeat center;
+border:0;
+background-size:auto 100\%;
+}}
+
+
 % Adjust fonts
 \Css{
 @font-face{
@@ -206,5 +242,4 @@ font-family: "EB Garamond SC", serif;
 font-variant: small-caps;
 }
 }
-
 
