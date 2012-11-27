@@ -231,6 +231,13 @@ font-size: 96pt;
 \ifvmode\IgnorePar\fi\EndP\HCode{<div class="refrain">}\textsc{Refrain\frcolon{}}\HCode{</div>}
 }
 
+\renewcommand{\attrib}[1]{%
+\ifvmode\IgnorePar\fi\EndP\HCode{<div class="attrib">}\footnotesize #1\HCode{</div>}
+}
+\Css{div.attrib{
+text-align: right;
+}}
+
 % Superscript
 \Css{.ecrm-0800{
 vertical-align: super;
