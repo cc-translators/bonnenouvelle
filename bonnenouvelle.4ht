@@ -153,6 +153,19 @@ font-variant:small-caps;
 }}
 
 
+% Dedication
+\renewcommand\dedicationtext[1]{%
+\ifvmode\IgnorePar\fi\EndP\Tg<div class="dedication">
+\ornrule
+
+\ifvmode\IgnorePar\fi\EndP\Tg<div class="dedicationtext">#1\Tg</div>
+
+\ornrule
+\Tg</div>
+}
+\Css{div.dedicationtext{
+font-style:italic;
+}}
 
 % Index
 \renewcommand\dotfill{\ —\ }
@@ -220,6 +233,11 @@ font-size: 96pt;
 \ifvmode\IgnorePar\fi\EndP\HCode{<div class="refrain">}\textsc{Refrain\frcolon{}}\HCode{</div>}
 }
 
+% Superscript
+\Css{.ecrm-0800{
+vertical-align: super;
+}}
+
 
 % Adjust fonts
 \Css{
@@ -250,7 +268,8 @@ font-variant: normal;
 src: url(fonts/EBGaramond12-Bold.otf);
 }
 em, i, .ecti, .ecti1,
-.thanks, .signature, .dvquote-text, .dvprayer-text
+.thanks, .signature, .dvquote-text, .dvprayer-text,
+.dedicationtext
 {
 font-family: "EB Garamond Italic", serif;
 }
