@@ -49,7 +49,7 @@ json: pdf $(addsuffix .json,$(TARGETS))
 	TEXINPUTS=$(TEXINPUTS) htlatex $< \
 	   'ebook.cfg,xhtml,charset=utf-8' ' -cunihtf -utf8 -cvalidate'
 	bash cleanuphtml.sh $@
-	tidy -m -xml -utf8 $@
+	#tidy -m -xml -utf8 $@
 
 %_embedded.epub: %.epub
 	rm -rf $*

@@ -101,17 +101,17 @@ border:0;
 \h:HTMLsecHook
 }
 \Configure{HTMLsecHook}{%
-\ifvmode\IgnorePar\fi\EndP\Tg<h3 class="dvday" id="page.\thepage">}{\Tg<span class="dvdaynum">\Tg<a id="day.\thejrnltotalday">}{\Tg</a>\Tg</span>}{\Tg<span class="dvdaydash">}{\Tg</span>}{\Tg<span class="dvdaytitle">}{\Tg</span>}{\Tg</h3>\IgnoreIndent}
-\Css{h3.dvday{
+\ifvmode\IgnorePar\fi\EndP\Tg<h2 class="dvday" id="page.\thepage">}{\Tg<span class="dvdaynum">\Tg<a id="day.\thejrnltotalday">}{\Tg</a>\Tg</span>}{\Tg<span class="dvdaydash">}{\Tg</span>}{\Tg<span class="dvdaytitle">}{\Tg</span>}{\Tg</h2>\IgnoreIndent}
+\Css{h2.dvday{
 font-variant:small-caps;
 }
-h3.dvday span.dvdaytitle{
+h2.dvday span.dvdaytitle{
 margin:auto 5\%;
 font-size:xx-large;
 display:block;
 text-align:center;
 }
-h3.dvday span.dvdaydash{
+h2.dvday span.dvdaydash{
 display:none;
 }
 span.dvdaynum{
