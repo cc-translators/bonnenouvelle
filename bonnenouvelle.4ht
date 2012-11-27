@@ -82,15 +82,15 @@ border:0;
 \Configure{textsc}{\Tg<span class="small-caps">}{\Tg</span>}
 
 % months for toc
-\NewConfigure{HTMLchapHook}{2}
-\renewcommand\HTMLchapHook[1]{%
-\a:HTMLchapHook#1\b:HTMLchapHook
-}
-\Configure{HTMLchapHook}{%
-\ifvmode\IgnorePar\fi\EndP\Tg<h2 class="dvmonth">}{\Tg</h2>\IgnoreIndent}
-\Css{h2.dvmonth{
-display: none;
-}}
+%\NewConfigure{HTMLchapHook}{2}
+%\renewcommand\HTMLchapHook[1]{%
+%\a:HTMLchapHook#1\b:HTMLchapHook
+%}
+%\Configure{HTMLchapHook}{%
+%\ifvmode\IgnorePar\fi\EndP\Tg<h2 class="dvmonth">}{}
+%\Css{h2.dvmonth{
+%display: none;
+%}}
 
 % dvday display
 \NewConfigure{HTMLsecHook}{8}
