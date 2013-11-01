@@ -1,7 +1,7 @@
 BOOK_NAME=bonnenouvelle
 TEXINPUTS=microtype:
 TODAY=$(shell date --iso)
-TARGETS=$(BOOK_NAME) $(BOOK_NAME)_numbered $(BOOK_NAME)_annotated $(BOOK_NAME)_6x9
+TARGETS=$(BOOK_NAME) $(BOOK_NAME)_numbered $(BOOK_NAME)_annotated $(BOOK_NAME)_lulu_base $(BOOK_NAME)_lulu
 FTP_TOPDIR=calvary
 FTP_PDFDIR=$(FTP_TOPDIR)/pdf
 FTP_JSONDIR=$(FTP_TOPDIR)/json
